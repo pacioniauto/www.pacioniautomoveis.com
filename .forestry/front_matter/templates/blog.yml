@@ -1,0 +1,43 @@
+---
+label: blog
+hide_body: false
+fields:
+- name: titulo
+  type: text
+  config:
+    required: false
+  label: Título
+- name: subtitulo
+  type: text
+  config:
+    required: false
+  label: SubTítulo
+- name: descricao
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Descrição
+- name: categoria
+  type: text
+  config:
+    required: false
+  label: Categoria
+- name: dia
+  type: datetime
+  label: Dia
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: imagem
+  type: file
+  config:
+    maxSize: 64
+  label: Imagem
+  description: imagem ilustrativa

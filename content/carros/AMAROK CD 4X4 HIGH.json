@@ -1,0 +1,32 @@
+{
+  "ano": 2013,
+  "tanque": 0,
+  "kilometragem": 0,
+  "potencia": 0,
+  "dia": "2021-12-15T03:00:00Z",
+  "marca": "Volkswagen",
+  "modelo": "Amarok HIGH ",
+  "categoria": "Picape",
+  "preco": "117.900,00",
+  "combustivel": "Diesel",
+  "transmissao": "Automático",
+  "motor": "3.0",
+  "cor": "Prata",
+  "freio": "",
+  "observacoes": "",
+  "fotos": [
+    "/uploads/img_2063.jpg",
+    "/uploads/img_2067.jpg",
+    "/uploads/img_2065.jpg",
+    "/uploads/img_2093.jpg",
+    "/uploads/img_2095.jpg",
+    "/uploads/img_2051.jpg",
+    "/uploads/img_2057.jpg",
+    "/uploads/img_2059.jpg",
+    "/uploads/img_2089.jpg",
+    "/uploads/img_2075.jpg",
+    "/uploads/img_2071.jpg"
+  ],
+  "destaques": false,
+  "banner": ""
+}

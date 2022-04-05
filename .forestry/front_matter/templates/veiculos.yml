@@ -1,0 +1,153 @@
+---
+label: Veículos
+hide_body: true
+fields:
+- name: dia
+  type: datetime
+  label: Dia
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: marca
+  type: text
+  config:
+    required: false
+  label: Marca
+- name: modelo
+  type: text
+  config:
+    required: false
+  label: Modelo
+- name: categoria
+  type: text
+  config:
+    required: false
+  label: Categoria
+- name: preco
+  type: text
+  config:
+    required: false
+  label: Preço
+  description: Formato 1.000,00 sem R$
+- name: ano
+  type: number
+  label: Ano
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  description: Ano de fabricação
+- name: combustivel
+  type: text
+  config:
+    required: false
+  label: Combustível
+- name: tanque
+  type: number
+  label: Tanque
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: transmissao
+  type: text
+  config:
+    required: false
+  label: Transmissão
+- name: motor
+  type: text
+  config:
+    required: false
+  label: Motor
+- name: cor
+  type: text
+  config:
+    required: false
+  label: Cor
+  description: Pintura
+- name: kilometragem
+  type: number
+  label: Kilometragem
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: freio
+  type: text
+  config:
+    required: false
+  label: Freio
+- name: potencia
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Potência
+- name: observacoes
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Observações
+- name: fotos
+  type: image_gallery
+  config: {}
+  label: Fotos
+- name: destaques
+  type: boolean
+  label: Destaque
+  description: Colocar veículo na primeira página
+- name: banner
+  type: file
+  config:
+    maxSize: 64
+  label: Banner
+  description: Imagem de destaque
+  hidden: false
+  showOnly:
+    field: destaques
+    value: true
+pages:
+- content/carros/AMAROK CD 4X4 HIGH.json
+- content/carros/BMW Z4.json
+- content/carros/CIVIC TOURING 2021.json
+- content/carros/Chevrolet-S10-LTZ-indaiatuba.json
+- content/carros/Chevrolet-cruze-ltz-indaiatuba.json
+- content/carros/KIA-SORENTO-indaiatuba.json
+- content/carros/L200-Triton-Sport-GLS-automoveis-indaiatuba.json
+- content/carros/Mercedes-Benz-C250-Sport-Turbo-indaiatuba.json
+- content/carros/Mitsubishi_PajeroHPE.json
+- content/carros/ToyotaYarisXSpacioni.json
+- content/carros/Volkswagen-TCrossTSi-indaiatuba.json
+- content/carros/Volkswagen-jetta-confortline-indaiatuba.json
+- content/carros/Volkswagen-saveiro-cross-indaiatuba.json
+- content/carros/Volkswagen_TouaregV6.json
+- content/carros/chevroletcruzeLThatch.json
+- content/carros/chevroletmontanaLSpacioni.json
+- content/carros/corolla-xei-indaiatuba.json
+- content/carros/honda-HRV-indaiatuba.json
+- content/carros/honda-fit-twist-indaiatuba.json
+- content/carros/jeep-renegade-cinzaa-pacioni-automoveis-indaiatuba.json
+- content/carros/jeepcompasslimitedpacioni.json
+- content/carros/jeeprenegadesportpacioni.json
+- content/carros/mitsubishi-asx-hpe-awd-indaiatuba.json
+- content/carros/porsche-boxter-gts-automoveis-indaiatubaa.json.json
+- content/carros/volkswagen-fusca-tsi-indaiatuba.json
